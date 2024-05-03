@@ -196,3 +196,81 @@ nav {
     height: 100px;
 }
 /* End of Features section */
+
+/* Products section */
+.product {
+    height: 100vh;
+    background-color: whitesmoke;
+    position: relative;
+    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+
+}
+
+.productImg {
+    width: 59%;
+}
+
+.productDetails {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 40%;
+    padding: 50px;
+}
+
+.productTitle {
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.productDesc {
+    font-size: 24px;
+    color: grey;
+}
+.colors, .sizes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color:last-child {
+    background-color: blueviolet;
+}
+
+.size {
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.size:hover {
+    font-weight: 600;
+    transition: ease 0.3s;
+}
+
+.productButton {
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* End of Products section */
